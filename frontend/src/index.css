@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --color-forest: #355546;
+  --color-forest-dark: #243e33;
+  --color-cream: #f7f5ef;
+  --color-sage: #dfe4cf;
+  --color-accent: #dce2bf;
+}
+
+body {
+  font-family: var(--font-sans);
+}
